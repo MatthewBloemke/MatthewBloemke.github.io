@@ -22,14 +22,14 @@ h1 {
     font-family: myFirstFont ;
     text-decoration: underline;
     text-align: center;
-    color: #f1bdb8;
+    color: #616d7e;
     background-color: #ced4bf;
 }
 nav {
     margin-bottom: 5px;
-    font-family: mySecondFont ;
+    font-family: 'Times New Roman' ;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     background-color: #b5b9aa;
 }
 nav a {
@@ -105,7 +105,7 @@ img {
         border: none;
         outline: none;
         background-color: #b5b9aa;
-        font-family: mySecondFont;
+        font-family: 'Times New Roman';
         font-size: 1em;
     }
     .dropdownContent a {
