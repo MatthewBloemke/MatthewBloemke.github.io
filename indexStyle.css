@@ -28,7 +28,7 @@ nav {
     margin-bottom: 10px;
     font-family: mySecondFont;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     background-color: #b5b9aa;
 }
 nav a {
@@ -48,7 +48,7 @@ img {
 }
 .display {
     width: auto;
-    height: 275px;
+    height: 285px;
 }
 .row {
     display: flex;
