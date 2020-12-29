@@ -26,7 +26,7 @@ h1 {
 }
 nav {
     margin-bottom: 10px;
-    font-family: 'Times New Roman';
+    font-family: mySecondFont;
     text-align: center;
     font-size: 2em;
     background-color: #b5b9aa;
