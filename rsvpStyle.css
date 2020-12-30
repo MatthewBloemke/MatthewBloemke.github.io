@@ -35,9 +35,6 @@ nav a {
     text-decoration: none;
 }
 
-a:hover {
-    color:darkgray;
-}
 p {
     text-align: center;
     font-family: 'Times New Roman';
@@ -51,10 +48,10 @@ main a {
     
 }
 p a:link {
-    color: #b5b9aa;
+    color: #616d7e;
 }
 p a:visited {
-    color: #b5b9aa;
+    color: #616d7e;
 }
 p a:hover {
     color: black;
@@ -71,17 +68,19 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6%;
+    margin-bottom: 1%;
 }
 
 footer {
     background-color: #b5b9aa;
-    margin-top: 1%;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 .footer {
     font-family: 'Times New Roman';
     font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 button {
     display: none;
