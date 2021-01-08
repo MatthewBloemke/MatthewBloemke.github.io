@@ -71,6 +71,9 @@ img {
     margin-bottom: 1%;
 }
 
+#rsvpBody {
+    display: none
+}
 footer {
     background-color: #b5b9aa;
     padding-top: 7px;

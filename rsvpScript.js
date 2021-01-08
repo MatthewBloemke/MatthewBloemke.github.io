@@ -1,6 +1,9 @@
 let buttons = document.querySelector("#dingus")
 console.log(buttons)
 
+let rsvpCase = [
+    
+];
 let plusOneList = [
     {name: "ryan dunton", rsvp: true},
     {name: "cici holmquist", rsvp: false},
@@ -12,6 +15,7 @@ buttons.onclick = function test() {
     let answer =""
     if (nameCheck.rsvp) {
         answer = "Yes!"
+        document.getElementById("rsvpBody").style.display = "block"
     } else {
         answer = "No, Sorry"
     }
