@@ -165,7 +165,7 @@ buttons.onclick = function test() {
     let answer =""
     if (nameCheck.rsvp) {
         document.getElementById("rsvpBody").style.display = "block"
-        document.getElementById("results").innerHTML = rsvpCase[nameCheck.rsvp].message
+        document.getElementById("results").innerHTML = rsvpCase[nameCheck.rsvp]
     } else {
         document.getElementById("results").innerHTML = "Sorry, that name is not on the list."
     }
