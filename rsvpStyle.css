@@ -43,7 +43,8 @@ label {
     display: initial;
     background-color: #b5b9aa;
     font-family: 'Times New Roman';
-    font-size: 1em;
+    font-size: 30px;
+    margin-top: 1%;
 }
 p {
     text-align: center;
@@ -54,6 +55,12 @@ p {
 }
 #inputContainer {
     display: block;
+    text-align: center;
+}
+input {
+    margin-top: 1%;
+    height: 30px;
+    font-size: 42px;
     text-align: center;
 }
 main a {
