@@ -184,7 +184,7 @@ buttons.onclick = function rsvpFunction() {
         document.getElementById("rsvpIntro").style.display = "none"
         document.getElementById("results").innerHTML = rsvpCase[nameCheck.rsvp]
     } else {
-        document.getElementById("results").innerHTML = "Sorry, that name is not on the list."
+        document.getElementById("results").innerHTML = "<b>Sorry, that name is not on the list</b>"
         document.getElementById("rsvpBody").style.display = "none"
         document.getElementById("rsvpIntro").style.display = "block"
     }
