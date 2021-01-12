@@ -42,6 +42,7 @@ a:hover {
 }
 p {
     text-align: center;
+    font-size: 42px;
 }
 
 footer {
@@ -53,6 +54,7 @@ footer {
 #schedulePhoto {
     max-width: 40%;
     height: auto;
+    margin-bottom: 1%;
 }
 .footer {
     font-family: 'Times New Roman';
@@ -74,6 +76,7 @@ img {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    border-radius: 5px;
 }
 /*Desktop css*/
 

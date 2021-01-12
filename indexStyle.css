@@ -35,7 +35,7 @@ nav a {
     color: #000000;
     text-decoration: none;
 
-}
+} 
 a:hover {
     color:darkgray;
 }
@@ -150,5 +150,10 @@ footer {
     }
     .display {
         display: none;
+    }
+    #mobilePhoto {
+        display: block;
+        max-width: 71%;
+        height: auto;
     }
 }

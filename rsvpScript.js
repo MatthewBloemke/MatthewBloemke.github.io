@@ -8,6 +8,7 @@ let rsvpCase = [
     '<b>Please click the link to rsvp you and your spouse!</b>',
     '<b>Please click the link to rsvp you and your family!</b>',
 ];
+
 let guestList = [
     {name: "gus mendoza", rsvp: 2},
     {name: "ryan dunton", rsvp: 4},
@@ -52,7 +53,7 @@ let guestList = [
     {name: "jim abeyta", rsvp: 3},
     {name: "lori abeyta", rsvp: 3},
     {name: "marcia amundson", rsvp: 3},
-    {name: "amundson", rsvp: 3},
+    {name: "chris amundson", rsvp: 3},
     {name: "nathan benson", rsvp: 1},
     {name: "steven chafer", rsvp: 3},
     {name: "tami chafer", rsvp: 3},
