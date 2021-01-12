@@ -140,7 +140,7 @@ let guestList = [
     {name: "ann konz", rsvp: 3},
     {name: "kay ludewig", rsvp: 3},
     {name: "eugine ludewig", rsvp: 3},
-    {name: "ruthanne miller", rsvp: 3},
+    {name: "ruth ann miller", rsvp: 3},
     {name: "dave miller", rsvp: 3},
     {name: "leah miller", rsvp: 2},
     {name: "brian miller", rsvp: 3},
