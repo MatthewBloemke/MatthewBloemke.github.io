@@ -59,6 +59,7 @@ p {
 #inputContainer {
     display: block;
     text-align: center;
+    margin-top: 5px;
 }
 input {
     margin-top: 1%;
