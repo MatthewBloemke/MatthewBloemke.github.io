@@ -51,13 +51,19 @@ button {
 }
 .dropdownContent {
     display: none;
-
+}
+#registryPhoto {
+    max-width: 40%;
+    border-radius: 5px;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6%;
+    margin-top: 3%;
+}
+#logo {
+    width: 150px;
 }
 p a:link {
     color: #616d7e;
@@ -121,6 +127,9 @@ footer {
     .dropdownContent a {
         color: #000000;
         display: block;
+    }
+    #registryPhoto {
+        max-width: 75%;
     }
     .dropdown:hover .dropdownContent {
         display: block;
