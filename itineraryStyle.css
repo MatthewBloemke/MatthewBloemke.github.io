@@ -50,9 +50,8 @@ footer {
     padding-bottom: 7px;
 }
 #schedulePhoto {
-    max-height: 500px;
-    max-width: 500px;
-    width: auto;
+    max-width: 40%;
+    height: auto;
 }
 .footer {
     font-family: 'Times New Roman';
@@ -98,6 +97,9 @@ img {
 @media screen and (max-device-width: 768px) {
     html {
         width: fit-content;
+    }
+    #schedulePhoto {
+        max-width: 65%;
     }
     h1 {
         font-size: 5em;
