@@ -182,7 +182,7 @@ buttons.onclick = function rsvpFunction() {
     console.log(nameCheck)
     if (nameCheck) {
         document.getElementById("rsvpBody").style.display = "block"
-        //document.getElementById("rsvpIntro").style.display = "none"
+        document.getElementById("rsvpIntro").style.display = "none"
         document.getElementById("results").innerHTML = rsvpCase[nameCheck.rsvp]
     } else {
         document.getElementById("results").innerHTML = "<b>Sorry, that name is not on the list</b>"
