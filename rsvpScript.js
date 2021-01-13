@@ -174,15 +174,15 @@ let guestList = [
     {name: "russ anderson", rsvp: 3},
     {name: "kim anderson", rsvp: 3},
 ]
-
-
+let fName = ""
+let nameCheck = ""
 buttons.onclick = function rsvpFunction() {
-    let fName = (document.getElementById("fullName").value).toLowerCase()
-    let nameCheck = guestList.find((person) => person.name === fName)
-    console.log(guestList.length)
+    fName = (document.getElementById("fullName").value).toLowerCase()
+    nameCheck = guestList.find((person) => person.name === fName)
+    console.log(nameCheck)
     if (nameCheck) {
         document.getElementById("rsvpBody").style.display = "block"
-        document.getElementById("rsvpIntro").style.display = "none"
+        //document.getElementById("rsvpIntro").style.display = "none"
         document.getElementById("results").innerHTML = rsvpCase[nameCheck.rsvp]
     } else {
         document.getElementById("results").innerHTML = "<b>Sorry, that name is not on the list</b>"
