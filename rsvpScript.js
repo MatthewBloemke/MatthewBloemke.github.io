@@ -183,10 +183,7 @@ buttons.onclick = function rsvpFunction() {
     if (fName[fName.length-1] === " ") {
         fName = fName.slice(0, fName.length-1)
     }
-    console.log(fName);
     nameCheck = guestList.find((person) => person.name === fName)
-    
-    console.log(nameCheck)
     if (nameCheck) {
         document.getElementById("rsvpBody").style.display = "block"
         document.getElementById("rsvpIntro").style.display = "none"
