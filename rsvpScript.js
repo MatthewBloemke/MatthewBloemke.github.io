@@ -1,6 +1,6 @@
 let buttons = document.querySelector("#rsvpButton")
-let input = document.getElementById("fullName")
-
+let lastInput = document.getElementById("lastName")
+let firstInput = document.getElementById("firstName")
 let rsvpCase = [
     '<b>Please click the link to rsvp!</b>',
     '<b>Please click the link to rsvp yourself!</b>',
@@ -179,10 +179,16 @@ let guestList = [
 let fName = ""
 let nameCheck = ""
 buttons.onclick = function rsvpFunction() {
-    fName = (document.getElementById("fullName").value).toLowerCase()
-    if (fName[fName.length-1] === " ") {
-        fName = fName.slice(0, fName.length-1)
+    first = (document.getElementById("firstName").value).toLowerCase()
+    last = (document.getElementById("lastName").value).toLowerCase()
+    if (first[first.length-1] === " ") {
+        first = first.slice(0, first.length-1)
     }
+    if (last[last.length-1] === " ") {
+        last = last.slice(0, last.length-1)
+    }
+    fName = first + " " + last;
+
     nameCheck = guestList.find((person) => person.name === fName)
     if (nameCheck) {
         document.getElementById("rsvpBody").style.display = "block"
@@ -195,7 +201,13 @@ buttons.onclick = function rsvpFunction() {
     }
     
 }
-input.addEventListener("keyup", function(event) {
+firstInput.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault()
+        lastInput.focus()
+    }
+})
+lastInput.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
         event.preventDefault();
         buttons.onclick();
