@@ -10,6 +10,12 @@ let rsvpCase = [
 ];
 
 let guestList = [
+    {name: "Saul Cuevas", rsvp: 4},
+    {name: "Michelle Cuevas", rsvp: 4},
+    {name: "Collin Loken", rsvp: 4},
+    {name: "Alicia Loken", rsvp: 4},
+    {name: "Carlos Astorga", rsvp: 4},
+    {name: "Maria Astorga", rsvp: 4},
     {name: "gloria bertram", rsvp: 3},
     {name: "jim bertram", rsvp: 3},
     {name: "gus mendoza", rsvp: 2},
