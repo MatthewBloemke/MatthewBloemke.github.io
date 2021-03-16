@@ -98,7 +98,7 @@ let guestList = [
     {name: "doug kuklok", rsvp: 4},
     {name: "josh lieder", rsvp: 4},
     {name: "sarah lieder", rsvp: 4},
-    {name: "abby meyer", rsvp: 2},
+    {name: "abbey meyer", rsvp: 2},
     {name: "dee norling", rsvp: 3},
     {name: "palmer norling", rsvp: 3},
     {name: "lanae olson", rsvp: 2},
