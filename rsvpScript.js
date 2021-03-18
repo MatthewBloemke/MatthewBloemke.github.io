@@ -131,7 +131,7 @@ let guestList = [
     {name: "charles johnston", rsvp: 3},   
     {name: "chuck keane", rsvp: 3},
     {name: "heather keane", rsvp: 3},
-    {name: "john-marc hazucah", rsvp: 1},
+    {name: "john-marc hazucha", rsvp: 1},
     {name: "catie anthony", rsvp: 2},
     {name: "jeremy mckinney", rsvp: 3},
     {name: "meri mckinney", rsvp: 3},
